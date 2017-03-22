@@ -31,3 +31,8 @@ theme_color: black
 
 # Build settings
 markdown: kramdown
+
+collections:
+  lessons:
+    title: Lessons
+    slug: lessons
