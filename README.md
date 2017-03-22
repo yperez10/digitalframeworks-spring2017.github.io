@@ -12,3 +12,5 @@ Current working version: Spring 2017
 * Enable static pages
 
 # Instructor installation
+
+ 
