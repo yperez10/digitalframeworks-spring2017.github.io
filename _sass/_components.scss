@@ -19,7 +19,9 @@ code {
 .prose {
 
   p, ol, ul {
+    font-family: $prose-font-family;
     font-size: $prose-font-size;
+    line-height: 1.7;
     margin-bottom: 1em;
     width: 100%;
 
