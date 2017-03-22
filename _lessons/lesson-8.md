@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  "Design strategy and design thinking"
 class_date:   2017-05-22
 ---
