@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Digital Frameworks
-description: Spring 2017
+description: Mondays, 6:00 - 8:50 PM ET, April 3<sup>rd</sup> - June 5<sup>th</sup>, 2017.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: jekyll # the GitHub repo name for your project
