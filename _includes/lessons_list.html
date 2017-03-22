@@ -1,0 +1,6 @@
+<ol class="mb-4 mt-3">
+  {% for item in site.lessons %}
+  <li class="ml-2 mb-2"><strong class="h4"><a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a></strong> <small>{{ item.class_date | date: "%B %-d, %Y" }}</small></li>
+  {% endfor %}
+</ol>
+

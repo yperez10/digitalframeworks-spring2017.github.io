@@ -23,19 +23,12 @@
 
         <div class="container mx-auto px-2 mb-2 clearfix header-text">
           <h1 class="h0 inline-block col-9 sm-width-full py-3 mt-3 header-title">{{ site.title }}</h1>
-          <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p>
+          <p class="lh-condensed font-smoothing mt-1">{{ site.description }}</p>
 
           <div class="clearfix mb-3 py-1">
             <div class="col-9 sm-width-full left border-top-thin">
-
               <h2>Lessons</h2>
-
-              <!-- Set site description in config.yml -->
-              <ol class="mb-4 mt-3">
-                {% for lesson in site.lessons %}
-                <li class="ml-2">{{ lesson.title }}</li>
-                {% endfor %}
-              </ol>
+              {% include lessons_list.html %}
             </div>
           </div>
         </div>

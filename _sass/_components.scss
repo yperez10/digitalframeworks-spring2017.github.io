@@ -30,6 +30,14 @@ code {
     }
 
   }
+  p, ol, ul, table {
+    a {
+      border-bottom: 1px solid $red;
+    }
+    a:hover {
+      border-bottom: 2px solid $black;
+    }
+  }
 
   ul, ol {
     padding-left: 40px;
@@ -129,5 +137,19 @@ code {
       border-bottom: 2px solid $color-body-text;
     }
   }
+}
 
+.header-text {
+  a {
+    border-bottom: 1px solid $white;
+    display: inline-block;
+  }
+  a:hover {
+    border-bottom: 1px solid $red;
+  }
+}
+
+sup {
+  text-transform: lowercase;
+  font-size: $body-font-size * 0.6;
 }

@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Syllabus
+title: "Syllabus"
 ---
 
-<h2>Mondays, 6:00 - 8:50 PM ET, April 3<sup>rd</sup> - June 5<sup>th</sup>, 2017.</h2>
+# Digital Frameworks: An overview of data journalism practice
 
-An overview of data journalism practice.
-
-**You must bring a laptop to class.**
+Mondays, 6:00 - 8:50 PM ET, April 3 - June 5, 2017.
 
 **Professor:** David Eads, NPR Visuals Team / **[email](mailto:davideads@gmail.com)** / **[twitter](https://twitter.com/eads)** / **[github](https://github.com/eads)**
 
@@ -17,6 +15,9 @@ An overview of data journalism practice.
 
 If you have a question or comment, use Slack first. Google Chat or email is best way to reach me privately outside of Slack. Also feel free to text, but not after 10pm.
 
+Lesson plan is available on the home page of this site.
+
+You must bring a laptop to class.
 
 ## Our focus
 
@@ -72,33 +73,6 @@ Submit your homework by the evening of class unless otherwise specified.
 Late homework will be docked 10% (one full letter grade) if it is submitted within two days of the due date and 20% (two full letter grades) if it submitted within a full week (seven days) of the due date. Homework submitted later than a week will only be accepted after meeting and developing a remediation plan with me.
 
 If you suspect you'll need to turn in homework late due to your other academic responsibilities or personal circumstances, make arrangements as early as possible. 
-
-## Weekly schedule:
-
-[The class calendar is available via Google Calendar](https://calendar.google.com/calendar/embed?src=vmceg8rug910a7oqhk02lmnt80%40group.calendar.google.com&ctz=America/New_York&mode=AGENDA).
-
-This outline is tentative.
-
-### Week 1: Intro to class; Github and Jekyll
-
-### Week 2: Interviewing a spreadsheet
-
-### Week 3: Data formats, databases, finding data
-
-### Week 4: Working with web APIs, query languages
-
-### Week 5: Data visualization basics
-
-### Week 6: Data exploration with Jupyter 1
-
-### Week 7: Data exploration with Jupyter 2
-
-### Week 8: Design strategy and design thinking
-
-### Week 9: Networks and security
-
-### Week 10: Wrap-up, ethics and history, the Talk (about jobs)
-
 
 ## Your responsibilities
 
