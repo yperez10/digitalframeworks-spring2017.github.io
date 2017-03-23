@@ -33,8 +33,13 @@ theme_color: black
 markdown: kramdown
 
 collections:
-  my_collection:
-    output: true
   lessons:
     output: true
     permalink: "/lessons/:title/index.html"
+
+defaults:
+  - scope:
+      path: ""
+      type: lessons
+    values:
+      layout: lesson
