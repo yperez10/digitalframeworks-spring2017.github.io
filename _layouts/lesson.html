@@ -10,7 +10,7 @@ layout: default
   <p class="mt-4 h4">{{ page.description }}</p>
   <div class="prose mb-4 py-4">
     {% if page.hide_image != true %}
-    <img src="{{ site.baseurl }}/assets/img/{{ page.image }}" alt="Image by {{ page.image_credit }}" />
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.image }}" alt="Image by {{ page.image_credit }}" />
     <p class="img-credit">{{ page.image_credit }}</p>
     {% endif %}
     {{ content }}
