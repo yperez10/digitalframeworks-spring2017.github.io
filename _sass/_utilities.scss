@@ -181,3 +181,13 @@
     text-decoration: none;
   }
 }
+
+// Photo credits and captions
+.prose {
+  p.img-credit {
+    font-size: $body-font-size * 0.8;
+    color: $gray;
+    text-align: right;
+    width: 100%;
+  }
+}

@@ -2,6 +2,9 @@
 title:  "Version control and static site building"
 description: "Using Git (version control software) and Jekyll (a static site building platform) to publish to Github Pages (a hosting platform)."
 class_date:   2017-04-03
+image: lessons/software-freedom.jpg
+image_credit: Jonathan Gibby
+hide_image: true
 ---
 
 ## Overview
@@ -21,7 +24,7 @@ Complete the "Hello world" [Github tutorial](https://guides.github.com/activitie
 Watch or read:
 
 * [Why use a static site generator](http://jekyll.tips/jekyll-casts/why-use-a-static-site-generator/)
-* [Blogging in Jekyll](http://jekyll.tips/jekyll-casts/blogging/)
+* [Blogging in Jekyll](http://jekyll.tips/jekyll-casts/blogging/) (note that instead of a text editor, you'll use Github directly)
 
 Fork the class repository, add a post to your copy of the repo, and use it to write your first digital journalism critique.
 
