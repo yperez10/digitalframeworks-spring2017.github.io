@@ -1,7 +1,22 @@
 ---
-layout: page
+layout: lesson
 title:  "Web APIs and query languages"
+description: "Use Postman (a utility for making structured HTTP requests) with the Socrata API (a web API) and the Socrata Query Langauge (a query language) to get summarized data."
 class_date:   2017-04-24
 ---
 
-Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.
+## Overview
+
+*Tools:* Socrata (city of Chicago open data portal version), Socrata Query Language (SoQL), Postman (a web browser-like tool for interacting with web APIs).
+
+*Concepts:* Application programming interfaces (API), structured queries (select, filter, grouping, and aggregation), the request-response cycle.
+
+*Philosophy:* Learning how to know what you need to learn next, how to understand enough to do what you need to do.
+
+## Assignment
+
+TBD. Will involve getting data from a Socrata web API, though.
+
+## Lesson
+
+[The NICAR Hitchhiker's Guide to Web APIs](https://docs.google.com/presentation/d/1jkZEcmgR5UeVzAvPskeZrlUH1tvXHXC9mo1NS-BWPvQ/edit#slide=id.p) by David Eads.

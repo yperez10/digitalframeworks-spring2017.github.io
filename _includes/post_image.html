@@ -1,0 +1,4 @@
+{% if page.image and page.image_credit and page.hide_image != true %}
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.image }}" alt="Image by {{ page.image_credit }}" />
+<p class="img-credit">{{ page.image_credit }}</p>
+{% endif %}

@@ -2,6 +2,10 @@
 layout: post
 title:  "Markdown sample"
 date:   2016-09-04
+categories: category
+author: David Eads
+image: lessons/software-freedom.jpg
+image_credit: Jonathan Gibby
 ---
 
 ### Markdown test document

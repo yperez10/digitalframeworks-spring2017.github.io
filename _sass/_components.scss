@@ -17,18 +17,16 @@ code {
 
 
 .prose {
+  //@media (min-width: $breakpoint-lg) {
+    //width: (10 / 12 * 100%); // matches col-10
+  //}
 
   p, ol, ul {
     font-family: $prose-font-family;
     font-size: $prose-font-size;
-    line-height: 1.7;
-    margin-bottom: 1em;
+    line-height: 29px;
+    margin-bottom: 20px;
     width: 100%;
-
-    @media (min-width: $breakpoint-lg) {
-      width: (10 / 12 * 100%); // matches col-10
-    }
-
   }
   p, ol, ul, table {
     a {

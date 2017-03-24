@@ -1,7 +1,20 @@
 ---
-layout: page
+layout: lesson
 title:  "Ethics, history, and the Jobs Talk"
+description: "Learn about original data journalists like Ida B. Wells and Ida Tarbell."
 class_date:   2017-06-06
 ---
 
-Lorem ipsizzle funky fresh i'm in the shizzle boom shackalack, consectetizzle adipiscing my shizz. Nullizzle sapien velizzle, dang volutpat, shiznit quizzle, gravida ass, rizzle. Pot get down get down tortor. Sed erizzle. Black go to hizzle dolizzle dapibizzle turpis fo shizzle my nizzle yo. Maurizzle pellentesque nibh et check it out. Bow wow wow check it out tortizzle. Pellentesque for sure rhoncizzle bow wow wow. In owned habitasse brizzle dictumst. Nizzle dapibizzle. Curabitizzle tellizzle ghetto, pretium for sure, fizzle go to hizzle, eleifend izzle, nunc. Dope suscipizzle. Integizzle boom shackalack velit ass purus.
+## Overview
+
+TBD
+
+## Assignment
+
+None! This is the last class.
+
+## Lesson
+
+[The Two Idas](http://www.recoveredfactory.net/hhdc/) by David Eads.
+
+Real talk about journalism jobs.

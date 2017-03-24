@@ -1,6 +1,6 @@
 ---
 title:  "Version control and static site building"
-description: "Using Git (version control software) and Jekyll (a static site building platform) to publish to Github Pages (a hosting platform)."
+description: "Use Git (version control software) and Jekyll (a static site building platform) to publish to Github Pages (a hosting platform)."
 class_date:   2017-04-03
 image: lessons/software-freedom.jpg
 image_credit: Jonathan Gibby

@@ -9,10 +9,7 @@ layout: default
   </div>
   <p class="mt-4 h4">{{ page.description }}</p>
   <div class="prose mb-4 py-4">
-    {% if page.hide_image != true %}
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.image }}" alt="Image by {{ page.image_credit }}" />
-    <p class="img-credit">{{ page.image_credit }}</p>
-    {% endif %}
+    {% include post_image.html %}
     {{ content }}
   </div>
   <p><i>This lesson is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</i></p>
