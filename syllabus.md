@@ -11,23 +11,21 @@ Mondays, 6:00 - 8:50 PM ET, April 3 - June 5, 2017.
 
 **[Calendar](https://calendar.google.com/calendar/embed?src=vmceg8rug910a7oqhk02lmnt80%40group.calendar.google.com&ctz=America/New_York&mode=AGENDA)**: Add to your Google calendar to automatically get schedule updates.
 
-**[Slack group chat](https://nwudigitalframeworks.slack.com/):** To share links, ask questions, and get help. You must be logged into the Slack chat during class so we can share links and files. TODO UPDATE TO MEDILL SLACK
+**[Slack group chat](https://medillonthehill.slack.com/messages/df-spring-2017):** We'll use Slack to share links, ask questions, and get help. You must be logged into the Slack chat during class.
 
-If you have a question or comment, use Slack first. Google Chat or email is best way to reach me privately outside of Slack. Also feel free to text, but not after 10pm.
+**Bring a laptop:** You must bring a laptop to class.
 
-Lesson plan is available on the home page of this site.
-
-You must bring a laptop to class.
+**Contacting your professor:** If you have a question or comment, contact me via direct message on Slack (my username is `eads`). If you contact me during work hours, I'm not likely to be available, but I will get back to you at my earliest possible opportunity.
 
 ## Our focus
 
 **Digital data journalism: Finding, analyzing and presenting structured information on the internet as part of your journalistic work.**
 
-Data is pretty important these days. It shapes business decisions and government policies at the highest levels. It is a constant part of our daily lives in the most mundane ways. Presidential campaigns and scientists wrangle vast amounts of data and distribute it digitally, but so does your phone, car, even fridge.
+Data is very important these days. It shapes business decisions and government policies at the highest levels. It is a constant part of our daily lives in the most mundane ways. Presidential campaigns and scientists wrangle vast amounts of data and distribute it digitally, but so does your phone, car, and even refrigerator.
 
 Understanding data and visualizing it clearly, compellingly, and truthfully is an essential skill for journalists. Without it, our stories are missing a key source. With it, we can evaluate how we frame our stories and deepen our reporting. Good data visualization and graphic analysis can expand the range of stories we tell, and how we tell them. Smart design strategy helps us maximize reach and impact while avoiding the commodification of our work.
 
-Most of the students in this course are likely to land jobs somewhere in the reporting corps. Your professor is an editor, insofar as an editor manages a collaborative digital consultancy, production team, and service desk in a newsroom. As a reporter, editor, or producer, there's a very good chance that you're going to need to work with a team like NPR Visuals. Depending on what you're covering, that could be on the daily. When we don't speak each others' language, that collaboration can be difficult and unsatisfying. When design, digital strategy, technology, reporting, and editing are in sync, we can create the kind of journalism that audiences didn't even know they wanted but find essential when they see it.
+Most of the students in this course are likely to land jobs somewhere in the reporting corps. Your professor is an editor, insofar as an editor manages a collaborative digital consultancy, production team, and service desk in a newsroom. As a reporter, editor, or producer, there's a very good chance that you're going to need to work with a team like NPR Visuals. Depending on what you're covering, that could be on the daily. When we don't speak each others' language, that collaboration can be difficult and unsatisfying. When design, digital strategy, technology, reporting, and editing are in sync, we can create the kind of journalism that audiences didn't even know they wanted but find essential when they find it.
 
 A fundamental goal of this course is to give you the language, concepts, and enough of the nitty gritty to have a great collaboration with developers and designers. If we all do this right, you'll be able to walk up to a newsroom developer with a Jupyter notebook in your (virtual) hand and say "yo, I think found a fascinating correlation between wait times at Veterans' Affairs hospitals and opioid arrest data, can you review and can we talk through visualization strategies?"
 
@@ -35,7 +33,7 @@ A more conventional way of saying the same thing is that we'll investigate the t
 
 * **Data**: What is data and why is it useful?
 * **Stories**: Finding stories in data, interviewing data for the big picture view.
-* **Design**: How to use design -- visuals, media, user experience -- to tell compelling stories. 
+* **Design**: How to use design -- visuals, media, user experience -- to tell compelling stories.
 * **Technology**: Thinking like a network, constructing data structures and data storage.
 * **Tools**: Common online publishing platforms and languages. Using the smell test to know when to try a tool and when to commit to it.
 
@@ -45,7 +43,7 @@ Our goal is to shape data into appropriate and powerful reporting and visual sto
 
 Every class will be structured roughly the same way:
 
-* **Discussion of readings and critiques:** You'll be asked to critique one data story every week, and I'll pick a few to discuss with the group most weeks.
+* **Discussion of readings and assignments:** We'll discuss readings and some of the work you submitted.
 * **Lecture:** A topical lesson with a strong hands-on component. With any luck, we'll have a few guests as well.
 * **Troubleshooting:** If anyone runs into technical difficulties or has other questions, class will end with some time to address these issues.
 
@@ -55,8 +53,7 @@ Just kidding, there's no final project. Instead, you'll be asked to take on fair
 
 ## Homework
 
-You'll use the class blog to submit all homework. You'll use Git pull requests to .  We'll cover this in the first lecture. 
-
+You'll use the class blog to submit all homework. You'll use Github pull requests to submit your assignments. All your work will be published on the class blog. We'll cover how to do this in the [first lecture](../lesson-1/).
 
 ## Grading
 
@@ -68,11 +65,15 @@ Guests require your full attention, which means no devices. Students who spend m
 
 ### Homework: 70%
 
-Submit your homework by the evening of class unless otherwise specified. 
+Submit your homework by the evening of class unless otherwise specified.
 
 Late homework will be docked 10% (one full letter grade) if it is submitted within two days of the due date and 20% (two full letter grades) if it submitted within a full week (seven days) of the due date. Homework submitted later than a week will only be accepted after meeting and developing a remediation plan with me.
 
-If you suspect you'll need to turn in homework late due to your other academic responsibilities or personal circumstances, make arrangements as early as possible. 
+If you suspect you'll need to turn in homework late due to your other academic responsibilities or personal circumstances, make arrangements as early as possible.
+
+## Lessons
+
+{% include lessons_list.html %}
 
 ## Your responsibilities
 
