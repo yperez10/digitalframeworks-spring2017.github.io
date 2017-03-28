@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Markdown sample"
+title:  "Sample post"
 date:   2016-09-04
-categories: category
 author: David Eads
 image: lessons/software-freedom.jpg
 image_credit: Jonathan Gibby
 ---
+
+This is a sample post with all kinds of Markdown references. Copy and go to town!
 
 ### Markdown test document
 
