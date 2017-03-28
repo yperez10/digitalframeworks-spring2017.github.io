@@ -30,10 +30,11 @@ code {
   }
   p, ol, ul, table {
     a {
-      border-bottom: 1px solid $red;
+      text-decoration: underline;
+      text-decoration-color: $black;
     }
     a:hover {
-      border-bottom: 2px solid $black;
+      text-decoration-color: $red;
     }
   }
 
@@ -133,11 +134,10 @@ code {
 
 .header-text {
   a {
-    border-bottom: 1px solid $white;
-    display: inline-block;
+    text-decoration: underline;
   }
   a:hover {
-    border-bottom: 1px solid $red;
+    text-decoration-color: $red;
   }
 }
 
