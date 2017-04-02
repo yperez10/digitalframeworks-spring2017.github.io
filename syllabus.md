@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Syllabus"
+nav_description: "Start here for the class outline and expecations"
 ---
 
 # Digital Frameworks: An overview of data journalism practice
@@ -65,7 +66,7 @@ Guests require your full attention, which means no devices. Students who spend m
 
 ### Homework: 70%
 
-Submit your homework by the evening of class unless otherwise specified.
+Submit your homework by 7am the day of class unless otherwise specified. That means most weeks, your assignments will be due on Monday morning and we have a bit of time to work through any technical issues that might arise during the day.
 
 Late homework will be docked 10% (one full letter grade) if it is submitted within two days of the due date and 20% (two full letter grades) if it submitted within a full week (seven days) of the due date. Homework submitted later than a week will only be accepted after meeting and developing a remediation plan with me.
 

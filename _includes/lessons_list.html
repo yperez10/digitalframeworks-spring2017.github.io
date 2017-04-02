@@ -1,4 +1,4 @@
-<ol class="mb-4 mt-3">
+<ol class="mb-4 mt-1">
   {% assign lessons = site.lessons | sort: 'class_date' %}
   {% for lesson in lessons %}
   <li class="ml-2 mb-2"><strong class="h4"><a href="{{ lesson.url | prepend: site.baseurl }}">{{ lesson.title }}</a></strong> <small>{{ lesson.class_date | date: "%B %-d, %Y" }}</small></li>

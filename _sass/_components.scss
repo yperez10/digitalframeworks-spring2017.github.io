@@ -17,24 +17,21 @@ code {
 
 
 .prose {
-  //@media (min-width: $breakpoint-lg) {
-    //width: (10 / 12 * 100%); // matches col-10
-  //}
-
   p, ol, ul {
     font-family: $prose-font-family;
     font-size: $prose-font-size;
-    line-height: 29px;
-    margin-bottom: 20px;
+    line-height: $prose-line-height;
     width: 100%;
+    margin-bottom: 1.25 * $prose-font-size;
   }
-  p, ol, ul, table {
-    a {
-      text-decoration: underline;
-      text-decoration-color: $black;
-    }
-    a:hover {
-      text-decoration-color: $red;
+
+  a {
+    color: $color-primary-link;
+    text-decoration: underline;
+    font-weight: 700;
+    &:hover {
+      color: $color-body-text;
+      text-decoration-color: $color-border;
     }
   }
 
@@ -132,14 +129,14 @@ code {
   }
 }
 
-.header-text {
-  a {
-    text-decoration: underline;
-  }
-  a:hover {
-    text-decoration-color: $red;
-  }
-}
+//.header-text {
+  //a {
+    //text-decoration: underline;
+  //}
+  //a:hover {
+    //text-decoration-color: $red;
+  //}
+//}
 
 sup {
   text-transform: lowercase;
