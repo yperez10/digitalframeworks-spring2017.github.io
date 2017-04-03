@@ -301,6 +301,30 @@ Now, you must describe the changes -- this is because a pull request can consist
 
 ![pull request describe]({{ site.url }}/assets/img/lessons/lesson-01-github-pull-request-describe.png)
 
-You're done. I'll take a look at your submission and provide feedback through Github's commenting tools.
+Click the big green button that says "Create pull request" on this page as well. That's it! You're done. I'll take a look at your submission and provide feedback through Github's commenting tools.
 
+## The important of sharing
 
+Okay so that was really painful. Most of the lessons aren't nearly this complex and sloggy and full of magic. As I said​ earlier, there are people who take serious issue with putting this first because it's unfriendly.
+
+¯\_(ツ)_/¯
+
+It is what it is. It should be easier. But you're better off for learning it and practicing during the next ten weeks.
+
+I used to run coding group in Chicago. It was very humbling because I'm an expert at this stuff and yet no one believed me that familiarity with Git and having code on Github was good for a person's job prospects. People looked at me like “so you're telling me the certification I want to get isn't going to land me a gig and yet having some code on Github will?!?”
+
+Then, one of our crew went to a job interview -- just an internship, but her first professional development opportunity. The interview was going so-so until she showed the prospective employer her code on Github. She was given an offer on the spot. After that, the folks in the group were just a little less skeptical of me and my crazy ways.
+
+So it's good to learn version control and site building because it will help you professionally. The deeper reason to learn this stuff is because it reinforces two key themes of this class: showing your work and sustainable technical interventions.
+
+Showing your work is important because it creates accountability. For example, you will be able to tell looking at the timestamps of changes to this file that I waited until the last minute to finish writing the lesson. But hey, that's what happened. And you can also see how the lesson evolved, what mistakes were made and how they were fixed (or, god forbid, things that didn't improve but got worse).
+
+So it's not just showing your work -- it's showing it in a way that captures the history of that work, whether it's data, code, text, or anything else. That's why version control is so powerful. While Git and Github are deeply confusing at first, they are the state of the art when it comes to managing complex, collaborative projects and creating a historical record that will improve your work and create accountability.
+
+We talked about it less, but the static site building component of all this is also deeply important. This technology is significantly faster, more secure, more customizable, and cheaper to run than tools like WordPress. WordPress is great, don't get me wrong. But for the kind of work we're doing in this class, it's a burden. With tools like WordPress and Drupal, you're going to spend a lot of time maintaining the software by running upgrades, dealing with funky databases and broken plugins. With static site builders, you can fire and forget.
+
+That's why tools like WordPress are great for your day-to-day content needs, but static site builders are great for special projects and embeddable charts and graphs produced on a daily basis. For standard-issue content, the technical debt of WordPress is worth it because the authoring experience is rather nice -- the friendly user experience is worth the on-going pain of running the platform. But for special digital publishing needs, the equation is inverted. In that case, it's better to spend more time up front learning somewhat more abstract technologies so that you don't have on-going pain. You'll rarely, if ever, need to think about your content once it's published.
+
+We could go even deeper, because this process is a microcosm for many more technical concepts we'll cover, like data structures, data formats, databases, markup languages, even copyright and licensing. Let's wait on that until you have a little more practice with the tools.
+
+Still, there's one more lesson here worth mentioning now, and it's that you don't have to know or understand _everything_ to do _something_. As a data journalist you need to be able to say, "I want to do X" (where X is publish a chart, clean up messy data, create an image of congress member's faces, collaborate on a special project, etc) and make it happen. In the real world, that means doing some Googling, conducting some tests (smell tests, practical tests, etc), and trying out some techniques you don't fully understand until you can get the thing to work. Once you get it to work, you're still going to have questions and things to learn. That's okay! This is the nature of the beast. And it's part of why journalism is such a satisfying practice for a certain kind of restlessly curious person. If you're really engaged, there won't be a day that goes by that you don't learn something new or deepen your understanding of how the foundational systems in our world work.
