@@ -303,11 +303,11 @@ Now, you must describe the changes -- this is because a pull request can consist
 
 Click the big green button that says "Create pull request" on this page as well. That's it! You're done. I'll take a look at your submission and provide feedback through Github's commenting tools.
 
-## The important of sharing
+## Mad science: Reproducibility, sharing, sustainability, and learning what you need
 
 Okay so that was really painful. Most of the lessons aren't nearly this complex and sloggy and full of magic. As I said​ earlier, there are people who take serious issue with putting this first because it's unfriendly.
 
-¯\_(ツ)_/¯
+¯\\_(ツ)_/¯
 
 It is what it is. It should be easier. But you're better off for learning it and practicing during the next ten weeks.
 
