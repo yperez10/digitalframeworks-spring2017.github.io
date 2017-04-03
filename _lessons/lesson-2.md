@@ -3,6 +3,8 @@ layout: lesson
 title:  "Interviewing a big pile of data"
 description: "Use Google Sheets (spreadsheet software) to investigate a dataset."
 class_date:   2017-04-10
+author: David Eads
+copyright: 'This lesson is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
 ---
 
 ## Overview

@@ -3,6 +3,8 @@ layout: lesson
 title:  "Web APIs and query languages"
 description: "Use Postman (a utility for making structured HTTP requests) with the Socrata API (a web API) and the Socrata Query Langauge (a query language) to get summarized data."
 class_date:   2017-04-24
+author: David Eads
+copyright: 'This lesson is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
 ---
 
 ## Overview

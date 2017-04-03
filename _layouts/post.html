@@ -18,6 +18,15 @@ layout: default
       {{ content }}
   </div>
 
+  <p class="mt-3"><i>
+    Copyright &copy; {{ page.date | date: "%Y" }}, {{ page.author }}. 
+    {% if page.copyright %}
+    {{ page.copyright }}
+    {% else %}
+    All rights reserved.
+    {% endif %}
+  </i></p>
+
 </article>
 
 <div class="container mx-auto px-2 py-2 clearfix">

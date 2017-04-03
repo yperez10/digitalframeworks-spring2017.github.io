@@ -5,6 +5,8 @@ class_date:   2017-04-03
 image: lessons/software-freedom.jpg
 image_credit: Jonathan Gibby
 hide_image: true
+author: David Eads
+copyright: 'This lesson is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
 ---
 
 # Overview
