@@ -307,7 +307,7 @@ Click the big green button that says "Create pull request" on this page as well.
 
 Okay so that was really painful. Most of the lessons aren't nearly this complex and sloggy and full of magic. As I said​ earlier, there are people who take serious issue with putting this first because it's unfriendly.
 
-¯\\_(ツ)_/¯
+¯\\\_(ツ)\_/¯
 
 It is what it is. It should be easier. But you're better off for learning it and practicing during the next ten weeks.
 
