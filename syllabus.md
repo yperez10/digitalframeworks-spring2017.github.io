@@ -4,7 +4,7 @@ title: "Syllabus"
 nav_description: "Start here for the class outline and expecations"
 ---
 
-# Digital Frameworks: An overview of data journalism practice
+*An overview of data journalism practice*
 
 Mondays, 6:00 - 8:50 PM ET, April 3 - June 5, 2017.
 

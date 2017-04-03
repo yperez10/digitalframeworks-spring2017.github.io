@@ -59,16 +59,16 @@ code {
     font-style: italic;
 
     p {
-      font-size: 24px;
+      font-size: 20px;
     }
 
     @media (min-width: $breakpoint-lg) {
       padding-left: $spacer-3;
-      margin: $spacer-4 0 $spacer-4 -40px;
+      margin: $spacer-3 0 $spacer-3 -40px;
       max-width: (11 / 10 * 100%);
 
       p {
-        font-size: 32px;
+        font-size: 20px;
       }
 
     }
