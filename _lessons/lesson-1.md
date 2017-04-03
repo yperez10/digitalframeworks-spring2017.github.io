@@ -103,9 +103,11 @@ Let's start by creating your own copy of the class repository so that you can ma
 
 ### Fork the class repository
 
-Visit https://github.com/digitalframeworks-spring2017/digitalframeworks-spring2017.github.io in your browser. You should be logged in to Github, or at least have an account.
+Visit [https://github.com/digitalframeworks-spring2017/digitalframeworks-spring2017.github.io](https://github.com/digitalframeworks-spring2017/digitalframeworks-spring2017.github.io) in your browser. (I know, it's a semi-ridiculous URL.) You should be logged in to Github, or at least have an account.
 
 Now, click the "fork" button in the upper-left corner of the screen below the black toolbar. You may have to pick an account to fork to if you belong to multiple Github organizations. Otherwise, the process will just begin.
+
+![forking]({{ site.url }}/assets/img/lessons/lesson-01-fork.png)
 
 When the forking process is done, you'll be dropped onto a page with a URL like https://github.com/eads/digitalframeworks-spring2017.github.io.
 
@@ -113,28 +115,192 @@ If you take a look at the URL structure, you'll see the name of the repository (
 
 ### Clone your fork of the repository
 
-Now, open the Github Desktop application and add _your_ version of the class repository.
+Now, open the Github Desktop application and add _your_ version of the class repository to your computer.
 
-TKTK
+In Git terminology, you'll "clone" the repository from Github onto your personal computer.
+
+Click the little plus in the upper left:
+
+![add repo]({{ site.url }}/assets/img/lessons/lesson-01-github-desktop-add.png)
+
+Switch the add repository panel to "clone":
+
+![clone repo]({{ site.url }}/assets/img/lessons/lesson-01-github-desktop-clone.png)
+
+Now find somewhere to put the repository on your computer. It doesn't matter where, but it should be somewhere you'll remember and can kind easily.
+
+![pick directory]({{ site.url }}/assets/img/lessons/lesson-01-github-desktop-pick-directory.png)
+
+Now you can work on your site and submit your changes back to the main class site. You'll use Atom to edit files in your site like posts, Github Desktop to track your changes and push them back to Github, and the Github website to create pull requests that I will review before adding to the main class site.
 
 ## Hello static site building
 
-We haven't talked much about what's _in_ the class repository. The class repository consists of Jekyll source code. You're going to learn a fair amount about basic Jekyll usage in this class, but for now the important thing to understand is that a Jekyll site is a bunch of files that get stitched into a published website. Web
+We haven't talked about what's _in_ the class repository yet. That would be Jekyll source code. You're going to learn a fair amount about basic Jekyll usage in this class, but for now the important thing to understand is that a Jekyll site is a bunch of files that get stitched into a published website.
 
-### Copy and edit a post
+You can think of this as a blueprint for creating a website -- all the little bits of content, assets like images, themes and styles, and other kinds of data and metadata.
 
-TKTK
+Jekyll is software that takes that blueprint and turns it into a bunch of files (generally speaking, these are HTML, Javascript, CSS, and asset files) that a web browser can read.
+
+Github will automatically build Jekyll sites and host them for free -- this service is called Github pages. It also explains the strange and long name of our repository and Github username. This magic naming scheme is what tells Github to build the page.
+
+All sound like greek to you? Let's create a post and see it in action. Time to open Atom.
+
+### Find your site
+
+In Atom, select "Open a Project"...
+
+![open project]({{ site.url }}/assets/img/lessons/lesson-01-atom-open-project.png)
+
+...and find the directory you cloned your repository to in the previous section. Click "Open" to open up a view of the all the project files.
+
+![find cloned project]({{ site.url }}/assets/img/lessons/lesson-01-atom-find-cloned-project.png)
+
+### Post basics
+
+Most content management systems you've used have some kind of web-based user interface for working with content.
+
+Here's good old Wordpress:
+
+![wordpress]({{ site.url }}/assets/img/lessons/lesson-01-wordpress.png)
+
+Jekyll works somewhat differently. The "interface" to edit content is just your text editor and some magically named files.
+
+With your project open in Atom, find the `_posts` directory and open the file called `2016-09-04-markdown-sample.md`.
+
+![sample post]({{ site.url }}/assets/img/lessons/lesson-01-atom-sample-post.png)
+
+Let's unpack what we're looking at:
+
+At the top of the post is a block that looks like:
+
+```
+---
+layout: post
+title:  "Sample post"
+date:   2016-09-04
+author: David Eads
+image: lessons/software-freedom.jpg
+image_credit: Jonathan Gibby
+---
+```
+
+This is called front matter. It defines the meta-data that is associated with the post such as the title, who wrote the post, and what image to use when sharing on social media and that will appear at the top of the page.
+
+It is important to note that most of these fields are defined by me, as the person who is developing this particular Jekyll site. While there are just a few [pre-defined variables](https://jekyllrb.com/docs/frontmatter/#predefined-global-variables) related to how Jekyll processes content, things like the `author`, `title`, and `image_credit` variables were added by the original developer of this Jekyll theme, Diana Mounter or myself.
+
+Everything that comes after the front matter is the body of the post. It looks like this:
+
+```
+This is a sample post with all kinds of Markdown references. Copy and go to town!
+
+### Markdown test document
+
+Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
+
+There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
+
+There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
+
+> There should be no margin above this first sentence.
+>
+> Blockquotes should be a lighter gray with a gray border along the left side.
+>
+> There should be no margin below this final sentence.
+
+...
+```
+
+This is written in a format [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Markdown is kind of magic and occasionally infuriating, but is by far the most popular way to write structured content that is still readable by other human beings.
+
+We won't worry too much about the specifics of Markdown yet, in part because Atom automatically helps format Markdown in ways that make it pretty easy to understand.
+
+Jekyll turns this whole thing into a post that, in our theme and system, looks like this:
+
+![sample post]({{ site.url }}/assets/img/lessons/lesson-01-rendered-post.png)
+
+### Copy and edit your own post
+
+The easiest way to make your own post is to copy the one that's there. Right click on Windows or `ctrl`-click on Mac the file called `2016-09-04-markdown-sample.md` and select "Duplicate":
+
+![duplicate]({{ site.url }}/assets/img/lessons/lesson-01-atom-duplicate.png)
+
+What you call this file matters quite a bit. It should be of the form `YYYY-MM-DD-<post-slug>`, where `YYYY` is the current four digit year (e.g. 2017), `MM` is the current two-digit month (e.g. `01` for January), `DD` is the current two-digit day (e.g. `05` for the 5th), and `<post-slug>` is the so-called slug for the post. The slug is the name of the post as it will appear in URLs. Let's say this is a student named Jasmine's first assignment, a critique of a data graphic. The new filename should look something like this:
+
+![duplicate]({{ site.url }}/assets/img/lessons/lesson-01-atom-duplicate-name.png)
+
+Now, edit the post so it looks like this:
+
+```
+---
+layout: post
+title:  "Critique of a data graphic"
+date:   2017-04-02
+author: Jasmine Minor
+image: lessons/software-freedom.jpg
+image_credit: Jonathan Gibby
+---
+
+This is the beginning of my post critiquing a data graphic.
+```
+
+The title, filename, author, date, slug, image and image credit will all vary based on whoever submitted their assignment.
+
+Now you can add and synchronize your new post. Switch back to the Github Desktop app.
 
 ### Commit and synchronize your changes
 
-TKTK
+In the Github Desktop app, you're probably currently looking at the repository history view. But now, at the top, you'll see "1 Uncommitted Change." That means you've made a change and need to commit it.
+
+![github history]({{ site.url }}/assets/img/lessons/lesson-01-github-desktop-history-view.png)
+
+Let's take a look at the next screen. What it's showing us is everything that has changed since you last committed and gives you the option to write a little note describing the changes you made.
+
+Put a short summary of your changes in the "summary" field and click "commit to master"
+
+![git commit]({{ site.url }}/assets/img/lessons/lesson-01-github-desktop-commit.png)
+
+Your changes only live on your computer. To share your changes with the world, click the "Sync" button in the upper right.
 
 ### Enable website hosting
 
-TKTK
+To preview your work and make sure it works properly, you'll need to enable website hosting on Github.
+
+Pull up the settings page for your Github fork by going to:
+
+```
+https://github.com/<YOUR-USERNAME>/digitalframeworks-spring2017.github.io/settings
+```
+
+![github enable pages]({{ site.url }}/assets/img/lessons/lesson-01-github-enable-pages.png)
+
+When you're done, you can scroll down and find out the published URL:
+
+![github enable pages]({{ site.url }}/assets/img/lessons/lesson-01-github-enable-pages-done.png)
+
+(Thing I won't know definitively until class: If the build isn't automatic, make another commit. That's a good thing in all events.)
 
 ### Create a pull request
 
-TKTK
+The final step is to create a pull request. A pull request says to the person or group you forked from that you'd like to integrate your changes back into the main line of development (in this case, the main class site).
 
-##
+You should see an option to create a pull request associated with your latest commit at the top of the repository homepage found at:
+
+```
+https://github.com/<YOUR-USERNAME>/digitalframeworks-spring2017.github.io/
+```
+
+![select pull request]({{ site.url }}/assets/img/lessons/lesson-01-github-pull-request-start.png)
+
+Click it to start creating the pull request. It will take you to a screen showing you what's different between your version of the codebase and the main line of code.
+
+![pull request compare]({{ site.url }}/assets/img/lessons/lesson-01-github-pull-request-compare.png)
+
+Click the big green button that says "Create pull request".
+
+Now, you must describe the changes -- this is because a pull request can consist of many smaller changes.
+
+![pull request describe]({{ site.url }}/assets/img/lessons/lesson-01-github-pull-request-describe.png)
+
+You're done. I'll take a look at your submission and provide feedback through Github's commenting tools.
+
+
