@@ -1,6 +1,7 @@
+---
 layout: post
-title:  "Champaign, IL Crime Analysis"
-date: 2017-04-17
+title:  "Analysis of Champaign, IL: Crime Rates"
+date:   2017-04-17
 author: Yarilet Perez
 ---
 Champaign is a city in the state of Illinois with a population of 208, 419
