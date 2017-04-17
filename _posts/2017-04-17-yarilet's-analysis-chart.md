@@ -1,4 +1,3 @@
----
 layout: post
 title:  "Champaign, IL Crime Analysis"
 date: 2017-04-17
@@ -9,7 +8,7 @@ in 2016. In this dataset, I found the crime rates for Champaign from
 2007 – 2011. I wanted to focus on a smaller location, to see how often the data
 was updated. Typically, I have seen larger cities update their data more
 frequently, either because of population size or other stricter state
-requirements. This specific dataset was last updated December 5, 2012. The 
+requirements. This specific dataset was last updated December 5, 2012. The
 results are divided by offense and then by year. Although a final number is
 given for each offense, the total is not; it is only for violent crimes.
 
