@@ -25,8 +25,7 @@ portion, I could see that there was a decline in violent crime from
 2007 – 2009, but in 2010, the numbers rose by 376, and then took a dive in
 2011 by 538.
 
-When looking at the [chart](https://docs.google.com/a/u.northwestern.edu/spreadsheets/d/1wFVwx9OcxP8ErYQnJnn3V3cahctYAUj16bKh9vB6rn0/edit?usp=sharing), we can see that the numbers vary at the beginning of
-2007 – 2009, but nothing too significant. Although, when looking at the next
+When looking at the [chart](https://docs.google.com/spreadsheets/d/1wFVwx9OcxP8ErYQnJnn3V3cahctYAUj16bKh9vB6rn0/pub?gid=735621734&single=true&output=pdf), we can see that the numbers vary at the beginning of 2007 – 2009, but nothing too significant. Although, when looking at the next
 two years, we can certainly see the changes there, as the numbers jump and
 decrease dramatically. In the chart, the numbers and their steady increase is
 reflective, but I continue to question what the numbers are based on. Why was
